@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../../fonts/Poppins-Medium.ttf);
+}
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+/* header_nav */
+.no-border {
+    border: 0;
+    box-shadow: none;
+}
+
+.main {
+    background-color: #FFB20E;
+    width: 100%;
+    gap: 80px;
+    padding-top: 70px;
+
+}
+
+/* headermain */
+h1 {
+    font-size: 50px;
+}
+
+.button1 {
+    background-color: #F65900;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.food_offer .img:hover {
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}
+
+/* mid_section_1 */
+.mid {
+    /* background-color: #f9f7f2; */
+    padding: 60px;
+}
+.card{
+    border: none;
+}
+.card img:hover{
+    transition: ease-in-out .3s;
+    transform: scale(1.2);
+}

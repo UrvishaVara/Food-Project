@@ -1,10 +1,10 @@
 @font-face {
     font-family: Poppins;
-    src: url(../../fonts/Poppins-Medium.ttf);
+    src: url(../fonts/Poppins-Regular.ttf)
 }
 
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Poppins;
@@ -47,10 +47,34 @@ h1 {
     /* background-color: #f9f7f2; */
     padding: 60px;
 }
-.card{
+
+.card {
     border: none;
 }
-.card img:hover{
+
+.card img:hover {
     transition: ease-in-out .3s;
     transform: scale(1.2);
+}
+
+.badge-container {
+    position: relative;
+}
+.badge-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.badge-custom {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 10px;
+}
+
+.badge-discount {
+    background-color: #ff5722;
+    color: #fff;
 }

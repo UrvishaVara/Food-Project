@@ -2,7 +2,10 @@
     font-family: Poppins;
     src: url(../fonts/Poppins-Regular.ttf)
 }
-
+body{
+    margin: 0;
+    padding: 0;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -35,6 +38,9 @@ h1 {
     border: none;
     border-radius: 15px;
     width: 100%;
+}
+.food_offer img{
+    margin-left: 45px;
 }
 
 .food_offer .img:hover {
